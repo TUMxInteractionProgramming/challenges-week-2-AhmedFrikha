@@ -1,0 +1,140 @@
+/* #2 #colorful #palette is:
+          * Background: #F5F5F5 (GREY 100)
+          * Primary Text: black
+
+          * Primary color: #3F51B5 (INDIGO)
+          * Primary color_text : white
+          * Accent color: #CDDC39 (LIME)
+          * Accent color_text: black
+          */
+
+/*global styles */
+
+* {
+    /* #2 #font #faces */
+/*    font-family: 'Arial', sans-serif;*/
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    /* #2 #colorful #background */
+    background-color: #F5F5F5;
+}
+
+h1 {
+    /* #2 #colourful #app-bar */
+    background-color: #3F51B5;
+    color: white;
+}
+
+
+/*tab bar */
+
+#tab-bar {
+    background-color: white;
+}
+
+#tab-bar button {
+    /* #2 #colourful #plusfive */
+    background-color: white;
+    text-transform: uppercase;
+    border: 0px;
+    font-size: 13px;
+    width: 33%;
+    height: 72px;
+    padding: 16px;
+}
+
+#tab-bar button img{
+    margin:auto;
+    margin-bottom: 4px;
+    display: block;
+    
+}
+
+#tab-bar button.selected{
+    color: #3F51B5;
+    border-bottom: 4px solid #3F51B5;
+
+}
+
+
+/*styles for channel area*/
+
+h2 {
+    /* #2 #colorful #channelandchat */
+    background-color: white;
+
+}
+
+ul li{
+    padding: 16px;
+    font-size: 16px;
+    border-bottom: thin solid #F5F5F5 ;
+    
+    
+}
+
+ul li img{
+    position: relative;
+  
+    left: 5px;
+
+    vertical-align: middle;
+}
+
+ul li.selected{
+    color: #3F51B5;
+    border-left: 4px solid #3F51B5;
+}
+
+
+/*styles for chat area*/
+
+.message {
+    width: 80%;
+    margin-bottom: 8px;
+    margin-left: 2.5%;
+}
+
+.message h3 {
+    font-size: medium;
+}
+
+.message p {
+    /* #2 #colorful #channelandchat */
+    background-color: white;
+    padding: 16px;
+    width: 80%;
+}
+
+.message button {
+    /* #2 #colourful #plusfive */
+    background-color: #CDDC39;
+    color: black;
+    /* #2 #font capital #letters */
+    text-transform: uppercase;
+}
+
+.mymessage {
+    margin-left: 17.5%;
+}
+
+strong {
+    /* #2 #font #locations need an extra element, we'll use strong for w3w locations */
+    text-transform: uppercase;
+}
+
+h3 {
+    /* #2 #font #metadata is now medium */
+    font-size: medium;
+}
+
+.message h3 em {
+    /* #2 #font #remaining overrides the default italic appearance of em elements*/
+    font-size: larger;
+    font-style: normal;
+}
